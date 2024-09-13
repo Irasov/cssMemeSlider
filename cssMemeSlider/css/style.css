@@ -265,3 +265,45 @@ label:hover .point{
     background: rgba(0,0,0,0.0);
     border: 2px #fff solid; 
 }
+
+@media (max-width: 973.8px) {
+    .slide__title {
+        font-size: 0.9rem;
+    }
+  }
+@media (max-width: 879.8px) {
+[class*="__container"]{
+    margin: 0 auto;
+    padding: 20% 0 0 0;
+}
+.slider__body {
+    grid-template-rows: auto auto auto;
+}
+.c1 {
+    grid-column: 18 / 19;
+    justify-self: center;
+}
+.c2 {
+    grid-column: 19 / 20;
+    justify-self: center;
+}
+
+.c3 {
+    grid-column: 20 / 21;
+    justify-self: center;
+}
+.c4 {
+    grid-column: 21 / 22;
+    justify-self: center;
+}
+.c5 {
+    grid-column: 22 / 23;
+    justify-self: center;
+}
+.slide__title {
+    padding: 0;
+    font-size: 1rem;
+    grid-column: 5 / 41;
+    grid-row: 3;
+}
+  }
